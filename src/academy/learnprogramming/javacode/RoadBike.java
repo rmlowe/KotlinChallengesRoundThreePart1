@@ -17,4 +17,9 @@ public class RoadBike extends Bicycle {
         return tireWidth;
     }
 
+    public void printDescription() {
+        super.printDescription();
+        System.out.println("The road bike has a tire width of " + tireWidth + " MM.");
+    }
+
 }
